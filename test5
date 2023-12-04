@@ -1,0 +1,16 @@
+cd \
+cd C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\
+vcvars64
+cd \
+cd anu
+notepad mycp.c
+
+저장 : ANSI로 저장
+  cl mycp.c
+notepad f1.txt
+  => 1234
+  저장
+  mycp f1.txt f2.txt
+  type f2.txt
+  >1234
+
